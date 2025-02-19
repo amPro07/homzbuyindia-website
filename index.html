@@ -19,20 +19,24 @@
     />
   </head>
   <body>
-    <!-- HEADER / NAVIGATION -->
     <!-- NAVIGATION BAR -->
     <header class="navbar">
       <div class="logo">
         <img src="asset/logo.png" alt="HomzBuyIndia Logo" />
       </div>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#services">Our Services</a></li>
-          <li><a href="#partners">Partners</a></li>
-          <li><a href="#contact">Contact Us</a></li>
+
+      <!-- Navigation Links -->
+      <nav class="nav-links">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#ourway">Our Way</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#get-started" class="cta-btn">Get Started</a></li>
         </ul>
       </nav>
+
+      <!-- Mobile Menu Toggle -->
       <div class="hamburger">
         <span></span>
         <span></span>
@@ -41,53 +45,60 @@
     </header>
 
     <!-- HERO SECTION -->
-    <!-- HERO SECTION -->
-    <section class="hero-section">
-      <div class="hero-content">
-        <h4 class="hero-subtitle">BUILD YOUR DREAM WITH US</h4>
-        <h1 class="hero-title">
-          Find Your Best <br />
-          <span>Smart Real Estate</span>
-        </h1>
-        <p class="hero-description">
-          Discover luxury homes, high-rise apartments, and premium properties
-          with expert guidance.
-        </p>
-        <div class="hero-buttons">
-          <a href="#" class="btn enquire-btn">Enquire Now</a>
-          <a href="#" class="btn schedule-btn">Schedule Meeting</a>
+    <section class="hero">
+      <div class="hero-container">
+        <!-- Left Content -->
+        <div class="hero-text">
+          <h1>Find Your <span>Dream Home</span> with Ease</h1>
+          <p class="hero-description">
+            Smart real estate solutions tailored for the new generation. Browse
+            top properties, book virtual tours, and own your dream space
+            hassle-free.
+          </p>
+
+          <!-- Call-to-Action Buttons -->
+          <div class="hero-buttons">
+            <a href="#" class="btn primary-btn">Explore Properties</a>
+            <a href="#" class="btn secondary-btn">Get Consultation</a>
+          </div>
+        </div>
+
+        <!-- Right Floating Image -->
+        <div class="hero-image">
+          <img src="asset/hero-Photoroom.png" alt="Luxury House" />
         </div>
       </div>
 
-      <!-- Floating House Image -->
-      <div class="hero-image">
-        <img src="asset/Untitled design (2).png" alt="Luxury House" />
-      </div>
-
-      <!-- Animated Light Lines -->
-      <div class="light-lines"></div>
+      <!-- Background Effects -->
+      <div class="hero-bg"></div>
+      <div class="hero-glow"></div>
     </section>
 
-    <section id="stats" class="stats-section">
+    <!-- STATS SECTION -->
+    <section class="stats-section">
       <h2 class="section-title">📊 Our Impact in Numbers</h2>
       <p class="section-subtitle">Real Estate Beyond Expectations</p>
 
       <div class="stats-container">
+        <!-- Stat Box 1 -->
         <div class="stat-box">
           <h3 class="counter" data-target="10000">0</h3>
           <p>Happy Clients</p>
         </div>
 
+        <!-- Stat Box 2 -->
         <div class="stat-box">
           <h3 class="counter" data-target="500">0</h3>
           <p>Properties Sold</p>
         </div>
 
+        <!-- Stat Box 3 -->
         <div class="stat-box">
           <h3 class="counter" data-target="15">0</h3>
           <p>Years of Experience</p>
         </div>
 
+        <!-- Stat Box 4 -->
         <div class="stat-box">
           <h3 class="counter" data-target="98">0</h3>
           <p>Customer Satisfaction (%)</p>
@@ -95,49 +106,59 @@
       </div>
     </section>
 
-    <section id="about" class="about-section">
-      <div class="about-container">
-        <div class="about-text">
-          <h2 class="about-title">🚀 Who We Are</h2>
-          <p class="about-description">
+    <!-- WHO WE ARE SECTION -->
+    <section id="about" class="who-we-are">
+      <div class="who-container">
+        <!-- Left: Text Content -->
+        <div class="who-text">
+          <h2 class="who-title">🚀 Who We Are</h2>
+          <p class="who-description">
             At <span>HomzBuyIndia</span>, we are not just real estate
             advisors—we are dream curators. Our mission is to revolutionize the
-            property buying experience with **tech-driven insights**,
-            **personalized consultation**, and **unmatched market expertise**.
+            property buying experience with <b>tech-driven insights</b>,
+            <b>personalized consultation</b>, and
+            <b>unmatched market expertise</b>.
           </p>
-          <button class="about-btn">Learn More</button>
+          <button class="who-btn">Learn More</button>
         </div>
-        <div class="about-image">
-          <img src="asset/logo.png" alt="About Us" />
+
+        <!-- Right: Floating Image -->
+        <div class="who-image">
+          <img src="asset/logo.png" alt="Who We Are" />
         </div>
       </div>
     </section>
 
+    <!-- OUR SERVICES SECTION -->
     <section id="services" class="our-services">
-      <h2 class="section-title">🌟 Our Services</h2>
-      <p class="section-subtitle">
+      <h2 class="services-title">🌟 Our Services</h2>
+      <p class="services-subtitle">
         Your real estate journey, simplified with us.
       </p>
 
       <div class="services-container">
+        <!-- Service 1: Apartments -->
         <div class="service-card">
           <img src="asset/appt.png" alt="Apartments" />
           <h3>Apartments</h3>
           <p>Luxury & affordable apartments tailored to your needs.</p>
         </div>
 
+        <!-- Service 2: Villas -->
         <div class="service-card">
           <img src="asset/villa.png" alt="Villas" />
           <h3>Villas</h3>
           <p>Exclusive high-end villas in prime locations.</p>
         </div>
 
+        <!-- Service 3: Plots -->
         <div class="service-card">
           <img src="asset/plots.png" alt="Plots" />
           <h3>Plots</h3>
           <p>Build your dream home on premium land.</p>
         </div>
 
+        <!-- Service 4: Commercial -->
         <div class="service-card">
           <img src="asset/comm.png" alt="Commercial" />
           <h3>Commercial</h3>
@@ -146,15 +167,17 @@
       </div>
     </section>
 
-    <section class="why-buy-section">
-      <h2 class="section-title">Why Buy With Us?</h2>
-      <p class="section-subtitle">
+    <!-- WHY BUY WITH US SECTION -->
+    <!-- WHY BUY WITH US SECTION -->
+    <section id="why-buy" class="why-buy-section">
+      <h2 class="why-title">Why Buy With Us?</h2>
+      <p class="why-subtitle">
         The aspects that make HomzBuyIndia the leading real estate advisory.
       </p>
 
-      <div class="features-container">
+      <div class="why-features-container">
         <!-- Feature 1 -->
-        <div class="feature-card">
+        <div class="why-feature-card">
           <img
             src="asset/icons/conversation.png"
             alt="Real Estate Consulting"
@@ -167,7 +190,7 @@
         </div>
 
         <!-- Feature 2 -->
-        <div class="feature-card">
+        <div class="why-feature-card">
           <img src="asset/icons/real-estate.png" alt="Home Loan Consultation" />
           <h3>Home Loan Consultation</h3>
           <p>
@@ -177,7 +200,7 @@
         </div>
 
         <!-- Feature 3 -->
-        <div class="feature-card">
+        <div class="why-feature-card">
           <img src="asset/icons/diplomacy.png" alt="NRI Services" />
           <h3>NRI Services</h3>
           <p>
@@ -187,7 +210,7 @@
         </div>
 
         <!-- Feature 4 -->
-        <div class="feature-card">
+        <div class="why-feature-card">
           <img
             src="asset/icons/digital-assistant.png"
             alt="After Sales Assistance"
@@ -200,7 +223,7 @@
         </div>
 
         <!-- Feature 5 -->
-        <div class="feature-card">
+        <div class="why-feature-card">
           <img src="asset/icons/compass.png" alt="Vastu Consultation" />
           <h3>Vastu Consultation</h3>
           <p>
@@ -210,8 +233,8 @@
         </div>
 
         <!-- Feature 6 -->
-        <div class="feature-card">
-          <img src="asset/icons/compliance.png" alt="Legal Consultation" />
+        <div class="why-feature-card">
+          <img src="asset//icons/compliance.png" alt="Legal Consultation" />
           <h3>Legal Consultation</h3>
           <p>
             We provide full legal support for seamless transactions and property
@@ -221,69 +244,53 @@
       </div>
     </section>
 
-    <section class="our-way-section">
-      <h2 class="section-title">Our Way</h2>
-      <p class="section-subtitle">
+    <!-- OUR WAY SECTION -->
+    <section id="ourway" class="our-way-section">
+      <h2 class="our-way-title">Our Way</h2>
+      <p class="our-way-subtitle">
         The journey of finding your dream property, simplified.
       </p>
 
-      <div class="steps-container">
-        <!-- Step 1: Call & Arrange Meeting -->
-        <div class="step-box">
-          <div class="step-animation">
-            <img
-              src="asset/step1-character.png"
-              alt="Virtual Meeting"
-              class="character-img"
-            />
+      <div class="our-way-container">
+        <!-- Step 1 -->
+        <div class="way-step">
+          <div class="way-icon">
+            <img src="asset/call.png" alt="Call & Arrange Meeting" />
           </div>
-          <div class="step-content">
-            <h3>1️⃣ Call & Arrange a Meeting</h3>
-            <p>
-              Start your journey by scheduling a <b>virtual</b> or
-              <b>face-to-face meeting</b> with our experts.
-            </p>
-          </div>
+          <h3>Call & Arrange a Meeting</h3>
+          <p>
+            Start your journey by scheduling a virtual or face-to-face meeting
+            with our experts.
+          </p>
         </div>
 
-        <!-- Step 2: Shortlist Properties -->
-        <div class="step-box">
-          <div class="step-animation">
-            <img
-              src="asset/step2-character.png"
-              alt="Shortlisting Properties"
-              class="character-img"
-            />
+        <!-- Step 2 -->
+        <div class="way-step">
+          <div class="way-icon">
+            <img src="asset/shortlist.png" alt="Shortlist Properties" />
           </div>
-          <div class="step-content">
-            <h3>2️⃣ Shortlist Properties</h3>
-            <p>
-              Based on your preferences, our team helps you shortlist the best
-              properties.
-            </p>
-          </div>
+          <h3>Shortlist Properties</h3>
+          <p>
+            Based on your preferences, our team helps you shortlist the best
+            properties.
+          </p>
         </div>
 
-        <!-- Step 3: Land a Good Deal -->
-        <div class="step-box">
-          <div class="step-animation">
-            <img
-              src="asset/step3-character.png"
-              alt="Finalizing the Deal"
-              class="character-img"
-            />
+        <!-- Step 3 -->
+        <div class="way-step">
+          <div class="way-icon">
+            <img src="asset/deal.png" alt="Land a Good Deal" />
           </div>
-          <div class="step-content">
-            <h3>3️⃣ Land a Good Deal</h3>
-            <p>
-              Finalize your dream property with our expert negotiation and legal
-              support.
-            </p>
-          </div>
+          <h3>Land a Good Deal</h3>
+          <p>
+            Finalize your dream property with our expert negotiation and legal
+            support.
+          </p>
         </div>
       </div>
     </section>
 
+    <!-- Floating Contact Bar -->
     <!-- Floating Contact Bar -->
     <div class="floating-contact-bar">
       <!-- Call Button -->
@@ -307,43 +314,51 @@
       </a>
     </div>
 
-    <section class="testimonials-section">
-      <h2 class="section-title">🗣 What Our Clients Say</h2>
+    <!-- TESTIMONIALS SECTION -->
+    <section id="testimonials" class="testimonials-section">
+      <h2 class="testimonials-title">What Our Clients Say</h2>
+      <p class="testimonials-subtitle">
+        Hear from our happy clients who found their dream properties with us!
+      </p>
 
       <div class="testimonials-container">
-        <div class="testimonial active">
-          <p class="testimonial-text">
-            "HomzBuyIndia made my home-buying journey seamless and stress-free.
-            Their professionalism and expertise helped me find my dream home!"
-          </p>
-          <div class="client-info">
-            <h3 class="client-name">Ravi Kumar</h3>
-            <p class="client-position">Software Engineer, Bangalore</p>
+        <!-- Testimonial 1 -->
+        <div class="testimonial-card active">
+          <div class="client-img">
+            <img src="asset/client1.png" alt="Client 1" />
           </div>
+          <p class="testimonial-text">
+            "HomzBuyIndia made my home-buying journey seamless. Their
+            professionalism and expertise helped me find my dream home!"
+          </p>
+          <h3 class="client-name">Ravi Kumar</h3>
+          <p class="client-role">Software Engineer, Bangalore</p>
         </div>
 
-        <div class="testimonial">
-          <p class="testimonial-text">
-            "Excellent service! The team provided me with the best investment
-            options and guided me through the legal processes effortlessly."
-          </p>
-          <div class="client-info">
-            <img src="asset/client2.png" alt="Client 2" class="client-img" />
-            <h3 class="client-name">Priya Sharma</h3>
-            <p class="client-position">Businesswoman, Mumbai</p>
+        <!-- Testimonial 2 -->
+        <div class="testimonial-card">
+          <div class="client-img">
+            <img src="asset/client2.png" alt="Client 2" />
           </div>
+          <p class="testimonial-text">
+            "Excellent service! The team provided the best investment options
+            and guided me through the legal processes effortlessly."
+          </p>
+          <h3 class="client-name">Priya Sharma</h3>
+          <p class="client-role">Businesswoman, Mumbai</p>
         </div>
 
-        <div class="testimonial">
+        <!-- Testimonial 3 -->
+        <div class="testimonial-card">
+          <div class="client-img">
+            <img src="asset/client3.png" alt="Client 3" />
+          </div>
           <p class="testimonial-text">
             "HomzBuyIndia’s after-sales support was amazing. Even after closing
             the deal, they helped me with documentation and formalities."
           </p>
-          <div class="client-info">
-            <img src="asset/client3.png" alt="Client 3" class="client-img" />
-            <h3 class="client-name">Amit Verma</h3>
-            <p class="client-position">Entrepreneur, Hyderabad</p>
-          </div>
+          <h3 class="client-name">Amit Verma</h3>
+          <p class="client-role">Entrepreneur, Hyderabad</p>
         </div>
       </div>
 
@@ -352,80 +367,131 @@
       <button class="next-btn">&#10095;</button>
     </section>
 
-    <section id="contact" class="contact-section">
-      <div class="contact-overlay">
-        <h2 class="contact-title">📩 LET'S CONNECT</h2>
-
-        <!-- Contact Form -->
-        <form id="contact-form" class="contact-form">
-          <div class="input-group">
-            <input type="text" id="first-name" name="first-name" required />
-            <label for="first-name">First Name</label>
-          </div>
-
-          <div class="input-group">
-            <input type="text" id="last-name" name="last-name" required />
-            <label for="last-name">Last Name</label>
-          </div>
-
-          <div class="input-group">
-            <input type="number" id="phone" name="phone" required />
-            <label for="phone">Phone Number</label>
-          </div>
-
-          <div class="input-group">
-            <input type="email" id="email" name="email" required />
-            <label for="email">Email</label>
-          </div>
-
-          <button type="submit" class="contact-btn">SUBMIT</button>
-        </form>
-
-        <!-- Disclaimer Text -->
-        <p class="contact-disclaimer">
-          By providing HomzBuyIndia your contact information, you agree to our
-          <a href="#">Privacy Policy</a> and consent to receive marketing
-          communications. You may opt-out at any time.
-        </p>
-      </div>
-    </section>
-
-    <section class="partners-section">
-      <h2 class="partners-heading">Our Trusted Partners</h2>
+    <!-- PARTNERS SECTION -->
+    <section id="partners" class="partners-section">
+      <h2 class="partners-title">Our Trusted Partners</h2>
       <p class="partners-subtitle">
         We collaborate with the best in the industry.
       </p>
 
-      <div class="partners-container">
-        <div class="partner-logo">
-          <img src="asset/godrej.png" alt="Godrej" />
+      <div class="partners-carousel">
+        <div class="partners-track">
+          <!-- Repeat these divs for more partners -->
+          <div class="partner-logo">
+            <img src="asset/godrej.png" alt="Godrej Properties" />
+          </div>
+          <div class="partner-logo">
+            <img src="asset/assetz_black_logo.png" alt="Assetz" />
+          </div>
+          <div class="partner-logo">
+            <img src="asset/sattva.webp" alt="Sattva" />
+          </div>
+          <div class="partner-logo">
+            <img src="asset/purva.jpeg" alt="Prestige Group" />
+          </div>
+          <div class="partner-logo">
+            <img src="asset/sobha.png" alt="Rohan Builders" />
+          </div>
+          <div class="partner-logo">
+            <img src="asset/Prestige_Group_logo.png" alt="Sumadhura" />
+          </div>
+          <!-- Duplicate these for infinite loop effect -->
+          <div class="partner-logo">
+            <img src="asset/rohan.png" alt="Godrej Properties" />
+          </div>
+          <div class="partner-logo">
+            <img src="asset/suma.png" alt="Assetz" />
+          </div>
+          <div class="partner-logo">
+            <img src="asset/brigade.png" alt="Sattva" />
+          </div>
+          <div class="partner-logo">
+            <img src="asset/birla.png" alt="Sattva" />
+          </div>
         </div>
-        <div class="partner-logo assetz">
-          <img src="asset/assetz_black_logo.png" alt="Assetz" />
-        </div>
-        <div class="partner-logo">
-          <img src="asset/sattva.webp" alt="Sattva" />
-        </div>
-        <div class="partner-logo">
-          <img src="asset/Prestige_Group_logo.png" alt="Prestige Group" />
-        </div>
-        <div class="partner-logo rohan">
-          <img src="asset/rohan.png" alt="Rohan" />
-        </div>
-        <div class="partner-logo"><img src="asset/suma.png" alt="Suma" /></div>
       </div>
     </section>
 
+    <!-- CONTACT US SECTION -->
+    <section id="contact" class="contact-section">
+      <div class="contact-container">
+        <!-- Left Side: Contact Info -->
+        <div class="contact-info">
+          <h2 class="contact-title">Get in Touch</h2>
+          <p class="contact-subtitle">
+            Have a question? Need expert real estate guidance? Reach out to us!
+          </p>
+
+          <div class="contact-details">
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <p>123, MG Road, Koramangala, Bengaluru, India</p>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone-alt"></i>
+              <p><a href="tel:+917760274321">+91 7760 274321</a></p>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <p>
+                <a href="mailto:info@homzbuyindia.com">info@homzbuyindia.com</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <!-- Right Side: Contact Form -->
+        <div class="contact-form">
+          <h2 class="form-title">Send Us a Message</h2>
+          <form id="contactForm">
+            <div class="input-group">
+              <input type="text" id="name" name="name" required />
+              <label for="name">Full Name</label>
+            </div>
+
+            <div class="input-group">
+              <input type="email" id="email" name="email" required />
+              <label for="email">Email Address</label>
+            </div>
+
+            <div class="input-group">
+              <input type="number" id="phone" name="phone" required />
+              <label for="phone">Phone Number</label>
+            </div>
+
+            <div class="input-group">
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                required
+              ></textarea>
+              <label for="message">Your Message</label>
+            </div>
+
+            <button type="submit" class="contact-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
     <footer class="footer">
       <div class="footer-container">
         <!-- Left Section: Company Info -->
         <div class="footer-left">
           <h2 class="footer-title">HomzBuyIndia</h2>
           <p>
-            HomzBuyIndia is a leading real estate brokerage firm dedicated to
-            helping clients find their dream homes. With a customer-centric
-            approach, we provide expert guidance in buying, selling, and
-            investing in properties across India.
+            We help you find your dream home with expert guidance and
+            cutting-edge real estate solutions. Trust us to make your property
+            journey seamless.
           </p>
           <img
             src="asset/logo.png"
@@ -449,35 +515,23 @@
         <div class="footer-right">
           <h3>Contact Us</h3>
           <p>
-            <strong>📍 Address:</strong> 123, MG Road, Koramangala, Bengaluru,
-            Karnataka, India
+            <i class="fas fa-map-marker-alt"></i> 123, MG Road, Bengaluru, India
           </p>
           <p>
-            <strong>📞 Phone:</strong>
+            <i class="fas fa-phone-alt"></i>
             <a href="tel:+917760274321">+91 7760 274321</a>
           </p>
           <p>
-            <strong>📧 Email:</strong>
+            <i class="fas fa-envelope"></i>
             <a href="mailto:info@homzbuyindia.com">info@homzbuyindia.com</a>
           </p>
 
           <!-- Social Media Icons -->
           <div class="social-icons">
-            <a href="#"
-              ><img
-                src="https://cdn-icons-png.flaticon.com/512/733/733558.png"
-                alt="Instagram"
-            /></a>
-            <a href="#"
-              ><img
-                src="https://cdn-icons-png.flaticon.com/512/733/733579.png"
-                alt="Twitter"
-            /></a>
-            <a href="#"
-              ><img
-                src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
-                alt="LinkedIn"
-            /></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
           </div>
         </div>
       </div>
