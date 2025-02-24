@@ -19,10 +19,16 @@
     />
   </head>
   <body>
-    <!-- NAVIGATION BAR -->
     <header class="navbar">
       <div class="logo">
-        <img src="asset/logo.png" alt="HomzBuyIndia Logo" />
+        <a href="#hero"><img src="asset/logo.png" alt="HomzBuyIndia Logo" /></a>
+      </div>
+
+      <!-- Mobile Menu Toggle -->
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
 
       <!-- Navigation Links -->
@@ -35,17 +41,10 @@
           <li><a href="#get-started" class="cta-btn">Get Started</a></li>
         </ul>
       </nav>
-
-      <!-- Mobile Menu Toggle -->
-      <div class="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
     </header>
 
     <!-- HERO SECTION -->
-    <section class="hero">
+    <section class="hero" id="hero">
       <div class="hero-container">
         <!-- Left Content -->
         <div class="hero-text">
@@ -255,7 +254,7 @@
         <!-- Step 1 -->
         <div class="way-step">
           <div class="way-icon">
-            <img src="asset/call.png" alt="Call & Arrange Meeting" />
+            <img src="asset/icons/sales.png" alt="Call & Arrange Meeting" />
           </div>
           <h3>Call & Arrange a Meeting</h3>
           <p>
@@ -267,7 +266,7 @@
         <!-- Step 2 -->
         <div class="way-step">
           <div class="way-icon">
-            <img src="asset/shortlist.png" alt="Shortlist Properties" />
+            <img src="asset/icons/property.png" alt="Shortlist Properties" />
           </div>
           <h3>Shortlist Properties</h3>
           <p>
@@ -279,7 +278,7 @@
         <!-- Step 3 -->
         <div class="way-step">
           <div class="way-icon">
-            <img src="asset/deal.png" alt="Land a Good Deal" />
+            <img src="asset/icons/deal.png" alt="Land a Good Deal" />
           </div>
           <h3>Land a Good Deal</h3>
           <p>
@@ -324,9 +323,6 @@
       <div class="testimonials-container">
         <!-- Testimonial 1 -->
         <div class="testimonial-card active">
-          <div class="client-img">
-            <img src="asset/client1.png" alt="Client 1" />
-          </div>
           <p class="testimonial-text">
             "HomzBuyIndia made my home-buying journey seamless. Their
             professionalism and expertise helped me find my dream home!"
@@ -337,9 +333,6 @@
 
         <!-- Testimonial 2 -->
         <div class="testimonial-card">
-          <div class="client-img">
-            <img src="asset/client2.png" alt="Client 2" />
-          </div>
           <p class="testimonial-text">
             "Excellent service! The team provided the best investment options
             and guided me through the legal processes effortlessly."
@@ -350,9 +343,6 @@
 
         <!-- Testimonial 3 -->
         <div class="testimonial-card">
-          <div class="client-img">
-            <img src="asset/client3.png" alt="Client 3" />
-          </div>
           <p class="testimonial-text">
             "HomzBuyIndia’s after-sales support was amazing. Even after closing
             the deal, they helped me with documentation and formalities."
@@ -487,17 +477,17 @@
       <div class="footer-container">
         <!-- Left Section: Company Info -->
         <div class="footer-left">
-          <h2 class="footer-title">HomzBuyIndia</h2>
+          <a href="#hero"
+            ><img
+              src="asset/logo.png"
+              alt="HomzBuyIndia Logo"
+              class="footer-logo"
+          /></a>
           <p>
             We help you find your dream home with expert guidance and
             cutting-edge real estate solutions. Trust us to make your property
             journey seamless.
           </p>
-          <img
-            src="asset/logo.png"
-            alt="HomzBuyIndia Logo"
-            class="footer-logo"
-          />
         </div>
 
         <!-- Middle Section: Quick Links -->
